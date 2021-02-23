@@ -46,7 +46,14 @@ https://getcomposer.org/doc/00-intro.md
 
 3 - Criar um banco de dado e povoar o banco com os dados do arquivo yii2basic.sql. <br>
 
-4 - Configurar o arquivo @app/config/db.php com suas crendências de conexão. <br>
+4 - Criar um arquivo .env na raíz do projeto, com os seguintes dados:. <br>
+
+~~~
+DATABASE_HOST = host de acesso ao seu banco
+DATABASE_DATABASE = Nome do seu banco
+DATABASE_USER = Usuário
+DATABASE_PASSWORD = Senha
+~~~
 
 5 - Configurar um chave @app/config/web.php  <br>
 
